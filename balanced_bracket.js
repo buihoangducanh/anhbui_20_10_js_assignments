@@ -1,7 +1,6 @@
 // Balanced Brackets:
 // Write a function that checks if the brackets in a given string are balanced.
 function isBalanced(str) {
-  const stack = [];
   const openingBrackets = ["[", "(", "{"];
   const closingBrackets = ["]", ")", "}"];
 
